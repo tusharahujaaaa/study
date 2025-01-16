@@ -1,5 +1,6 @@
 // ##########################   Ouestions   ##########################
 // Q1 Reverse a string
+// Q2 Find the largest odd number from given string
 
 // ##########################   Solutions   ##########################
 
@@ -16,7 +17,7 @@
 // }
 
 // reverse();
-
+// Q1 Reverse a string
 // function reverseString(input) {
 //   let output = "";
 //   for (let i = input.length - 1; i >= 0; i--) {
@@ -25,7 +26,38 @@
 //   return output;
 // }
 
-// // Example usage
 // let input = "1234";
 // let output = reverseString(input);
-// console.log(output); // Output: "4321"
+// console.log(output);
+
+// ***************************************************************
+
+// Q2 Find the largest odd number from given string
+
+// let str = "5688248";
+// let str1 = "61632826";
+// let str2 = "616338261";
+
+// function highestOdd(string) {
+//   for (let i = string.length - 1; i >= 0; i--) {
+//     // let temp = +string % 10;
+//     // if (temp % 2 != 0) {
+//     //   return string;
+//     // } else {
+//     //   string = Math.floor(string / 10).toString();
+//     // }
+
+//     if (string[i] % 2 != 0) {
+//       return string;
+//     } else {
+//       string = string.slice(0, -1);
+//     }
+//   }
+// }
+
+// console.log(highestOdd(str));
+// console.log(highestOdd(str1));
+// console.log(highestOdd(str2));
+
+
+// ***************************************************************
