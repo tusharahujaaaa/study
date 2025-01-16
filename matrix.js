@@ -1,11 +1,18 @@
-// fill a matrix diagonally
+// ##########################   Questions   ##########################
+// Q1 fill a matrix diagonally
+// 1 2 4 7
+// 3 5 8 11
+// 6 9 12 14
+// 10 13 15 16
 
+// ##########################   Solutions   ##########################
 
-                // 1 2 4 7
-                // 3 5 8 11
-                // 6 9 12 14
-                // 10 13 15 16
-                
+// Q1 fill a matrix diagonally
+
+// 1 2 4 7
+// 3 5 8 11
+// 6 9 12 14
+// 10 13 15 16
 
 // function digonalMatrix(size) {
 //   let matrix = Array.from({ length: size }, () => Array(size).fill(0));
@@ -27,5 +34,3 @@
 // }
 
 // digonalMatrix(4);
-
-
