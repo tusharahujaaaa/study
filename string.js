@@ -1,6 +1,8 @@
 // ##########################   Ouestions   ##########################
 // Q1 Reverse a string
 // Q2 Find the largest odd number from given string
+// Q3 Check the correctness of brackets/bracecs
+
 
 // ##########################   Solutions   ##########################
 
@@ -58,6 +60,36 @@
 // console.log(highestOdd(str));
 // console.log(highestOdd(str1));
 // console.log(highestOdd(str2));
+
+
+// ***************************************************************
+
+// Q3 Check the correctness of brackets/bracecs
+
+// function isValid(str) {
+//     let stack = [];
+//     for (let char of str) {
+//         if (char === '(' || char === '[' || char === '{') {
+//             stack.push(char);
+//         } else if (char === ')' || char === ']' || char === '}') {
+//             if (stack.length === 0) return false;
+            
+//             let top = stack.pop();
+//             if ((char === ')' && top !== '(') ||
+//                 (char === ']' && top !== '[') ||
+//                 (char === '}' && top !== '{')) {
+//                 return false;
+//             }
+//     }
+    
+//   }
+
+//   return stack.length === 0;
+// }
+
+// let input = "({({[{{}}]})})";
+// console.log(isValid(input));
+
 
 
 // ***************************************************************
