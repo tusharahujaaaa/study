@@ -1,0 +1,51 @@
+Top senior angular developer interview questions:
+
+1. Explain Angular application flow. What happens after compilation?
+2. What are Route Guards?
+3. Can we use multiple guards for a single route?
+4. What happens if one guard fails when multiple guards are applied?
+5. How do you call multiple APIs at the same time?
+6. Difference between `forkJoin` and `mergeMap`
+7. How do you call one API after the previous one completes?
+8. How to enable the next field in Reactive Forms based on dropdown selection?
+9. Latest Angular version & key features
+10. What are Signals in Angular?
+11. What are HTTP Interceptors? Can we have more than one?
+12. Explain login/logout flow in Angular
+13. After login: how do you handle roles & permissions?
+14. Difference between `package.json` and `package-lock.json`
+15. Cookies vs Local Storage vs Session Storage
+
+RxJS & State Management:
+16. Difference between `Subject`, `BehaviorSubject`, and `ReplaySubject`
+17. `switchMap` vs `mergeMap` vs `concatMap` vs `exhaustMap`
+18. When would you use `forkJoin`, `combineLatest`, and `zip`?
+19. How do you unsubscribe from observables?
+20. What is AsyncPipe and why is it useful?
+
+Angular Core Concepts:
+21. Difference between `constructor` and `ngOnInit`
+22. Complete order of Angular lifecycle hooks
+23. What is Change Detection? How does it work?
+24. What is Zone.js and Zoneless change detection?
+25. Standalone Components – what & why?
+26. Lazy loading vs Eager loading
+27. What are Pipes? Pure vs Impure
+28. ViewChild vs ContentChild
+29. What are Resolvers and when to use them?
+30. Guards vs Interceptors vs Resolvers
+
+Performance & Architecture:
+31. How do you improve Angular app performance?
+32. What is SSR & Hydration in Angular?
+33. TrackBy in `*ngFor` – why is it important?
+34. OnPush change detection – when to use it?
+35. How do you structure a large Angular project?
+36. What is Dependency Injection in Angular?
+
+Coding Questions:
+37. Flatten a nested array without using `flatMap`
+38. String transformation (example: `hello → h1e1l2o3`)
+39. Find the longest word in a sentence
+40. Write a debounce or throttle function
+41. Reverse a string without using built-in methods
