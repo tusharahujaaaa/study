@@ -1,0 +1,14 @@
+⚛️ Reconciliation
+
+    React:
+        updates state
+        re-runs the component
+        compares old UI vs new UI
+        updates only changed parts
+
+
+
+Immutable State Update
+
+    [...taskList, "New Task"] creates a new array reference
+    react sees old arrau !== new array so it re-render
