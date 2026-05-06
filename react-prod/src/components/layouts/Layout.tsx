@@ -1,14 +1,19 @@
 
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
+import type { ReactNode } from "react";
 
-const Layout = ({ children }: any) => {
+type LayoutProps = {
+  children: ReactNode;
+};
+
+const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="layout">
       <Sidebar />
       <div className="main-content">
         <Navbar />
-        <div className="page-content">{children}</div>
+        <main className="page-content">{children}</main>
       </div>
     </div>
   );

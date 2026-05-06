@@ -12,3 +12,17 @@ Immutable State Update
 
     [...taskList, "New Task"] creates a new array reference
     react sees old arrau !== new array so it re-render
+
+
+Lifting State Up
+    Moving shared state to the closest common parent component so multiple child components can access or update it.
+    🧠 Why Do We Need It?
+        In React:
+            data flows parent → child
+            child components cannot directly modify parent state
+            So when:
+            multiple components need same data
+            or a child needs to update parent data
+            we move the state upward to a common parent.
+            That process is called:
+            📌 Lifting State Up
