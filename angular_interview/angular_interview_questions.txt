@@ -1,0 +1,23 @@
+Q1- Pure and impure pipes
+Q2- how to differentiate between pure and impure pipe 
+Q3- Change Detection of Angular
+
+
+
+ALTOS GLOBAL
+Q1- What are interceptors
+Q2- write complete code for interceptors
+Q3- Input and Output
+Q4- write code for Input and Output
+Q5- what's the issue in this 
+    ngOnInit() {
+        this.searchService.onSearch().subscribe(data => {
+        this.items = data;
+        });
+    }
+Q6- write code to unsubscribe
+Q7- code for debounce time apply onchange
+
+
+
+
