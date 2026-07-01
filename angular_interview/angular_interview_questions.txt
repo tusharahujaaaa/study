@@ -19,5 +19,15 @@ Q6- write code to unsubscribe
 Q7- code for debounce time apply onchange
 
 
+MOTHERSON
+Q1- How angular works internally (how it starts)
+Q2- Hostbinding, Hostlistner
+Q3- What are signals
+Q4- Which is fast signals or rxjs
+Q5- subject or behavioursubject
+Q6- imagine there are 10 api calls on load how would u optimize them
+Q7- lazy loading and child routes
+
+
 
 
