@@ -27,6 +27,10 @@ Q4- Which is fast signals or rxjs
 Q5- subject or behavioursubject
 Q6- imagine there are 10 api calls on load how would u optimize them
 Q7- lazy loading and child routes
+Q8- RBAC what have u implemented if permission changes for role after login 
+Q9- what are effects 
+Q10- Treeshaking
+Q11- AOT and AOT vs JAT
 
 
 

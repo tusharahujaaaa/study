@@ -1,0 +1,35 @@
+// Q1- find the missing number in array arr[1,2,3,5]
+// Q2- tell the occurence of each "angular"
+
+
+
+
+// A1
+let arr = [1, 2, 3, 5];
+function findMissingNumber(arr) {
+    let n = arr.length + 1; // Total numbers including the missing one
+    let expectedSum = (n * (n + 1)) / 2; // Sum of first n natural numbers
+    let actualSum = arr.reduce((sum, num) => sum + num, 0); // Sum of elements in the array
+    return expectedSum - actualSum; // The difference is the missing number
+}
+
+
+// A2 
+let    str = "angular";
+
+function countChar(str) {
+    let temp = []
+    for (let i = 0; i < str.length; i++) {
+        const exist = temp.some(obj => obj.key == str[i]);
+        const obj = temp.find(item => item.key === str[i]);
+        if (obj) {
+            obj.value += 1
+        } else {
+            temp.push({ key: str[i], value: 1 })
+        }
+    }
+    return temp
+}
+
+console.log(countChar(str))
+
