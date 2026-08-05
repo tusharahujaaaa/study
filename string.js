@@ -2,6 +2,7 @@
 // Q1 Reverse a string
 // Q2 Find the largest odd number from given string
 // Q3 Check the correctness of brackets/bracecs
+// Q4 Check if a given string is a palindrome
 
 
 // ##########################   Solutions   ##########################
@@ -93,3 +94,23 @@
 
 
 // ***************************************************************
+
+// Q4 Check if a given string is a palindrome
+
+function isPalindrome(str) {
+    let left = 0;
+    let right = str.length - 1;
+    
+    while (left < right) {
+        if (str[left] !== str[right]) {
+            return false;
+        }
+        left++;
+        right--;
+    }
+    
+    return true;
+}
+
+// let input = "racecar";
+// console.log(isPalindrome(input)); // true
